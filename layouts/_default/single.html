@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<article class="bg-white py-16">
+    <div class="container mx-auto px-6 max-w-4xl">
+
+        <!-- Header -->
+        <header class="mb-12 text-center">
+            <div class="flex justify-center gap-2 mb-6">
+                {{ range .Params.categories }}
+                <span
+                    class="bg-blue-50 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">{{
+                    . }}</span>
+                {{ end }}
+            </div>
+
+            <h1 class="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6 leading-tight">
+                {{ .Title }}
+            </h1>
+
+            <div class="flex items-center justify-center gap-4 text-sm text-gray-500">
+                <span>By <span class="text-gray-900 font-semibold">{{ .Site.Params.author }}</span></span>
+                <span>&bull;</span>
+                <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time>
+                <span>&bull;</span>
+                <span>{{ .ReadingTime }} min read</span>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="prose prose-lg prose-blue mx-auto font-serif text-gray-800">
+            {{ .Content }}
+        </div>
+
+        <!-- Tags -->
+        <div class="mt-12 pt-8 border-t border-gray-200">
+            <h4 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-4">Tags</h4>
+            <div class="flex flex-wrap gap-2">
+                {{ range .Params.tags }}
+                <a href="/tags/{{ . | urlize }}"
+                    class="bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm px-3 py-1 rounded transition-colors">
+                    #{{ . }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- Related Posts (Optional Logic) -->
+<section class="bg-slate-light py-16">
+    <div class="container mx-auto px-6 max-w-4xl">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8 font-serif">Read This Next</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {{ $related := first 2 (where (where .Site.RegularPages "Type" "posts") "Permalink" "!=" .Permalink) }}
+            {{ range $related }}
+            <a href="{{ .RelPermalink }}"
+                class="block bg-white p-6 rounded shadow-sm hover:shadow-md transition-shadow">
+                <h4 class="text-lg font-bold text-gray-900 mb-2">{{ .Title }}</h4>
+                <p class="text-sm text-gray-600 line-clamp-2">{{ .Summary }}</p>
+                <div class="mt-4 text-trust-blue text-sm font-semibold">Read Article &rarr;</div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}

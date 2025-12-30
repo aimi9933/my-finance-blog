@@ -1,0 +1,52 @@
+<footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            <div class="col-span-1 md:col-span-2">
+                <h3 class="text-white text-lg font-bold mb-4">SmartVault Insights</h3>
+                <p class="text-sm leading-relaxed mb-4">
+                    Your trusted partner in navigating the complex world of personal finance. We provide data-driven
+                    insights to help you make smarter money decisions.
+                </p>
+                <div class="text-xs text-gray-500">
+                    &copy; {{ now.Year }} SmartVault Insights. All Rights Reserved.
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Explore</h4>
+                <ul class="space-y-2 text-sm">
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}" class="hover:text-white transition-colors">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Legal</h4>
+                <ul class="space-y-2 text-sm">
+                    {{ range .Site.Menus.footer }}
+                    <li><a href="{{ .URL }}" class="hover:text-white transition-colors">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+
+        <!-- Advertiser Disclosure -->
+        <div class="border-t border-gray-800 pt-8 mt-8">
+            <div class="bg-gray-800 rounded p-6 text-xs text-justify leading-relaxed">
+                <p class="font-bold text-gray-300 mb-2 uppercase">Advertiser Disclosure</p>
+                <p>
+                    SmartVault Insights is an independent, advertising-supported comparison service. The offers that
+                    appear on this site are from companies from which SmartVault Insights receives compensation. This
+                    compensation may impact how and where products appear on this site (including, for example, the
+                    order in which they appear). SmartVault Insights does not include all financial services companies
+                    or all available financial offers.
+                </p>
+                <p class="mt-2">
+                    We adhere to strict editorial standards to ensure that our content is accurate and unbiased. Our
+                    reviews and analysis are based on objective data and our team's expertise.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

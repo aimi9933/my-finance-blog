@@ -1,0 +1,45 @@
+baseURL = "https://190802.xyz/"
+languageCode = "en-us"
+title = "SmartVault Insights"
+#theme = "congo"
+
+[params]
+  description = "Expert financial advice on credit repair, loans, and personal finance strategies."
+  author = "SmartVault Insights Team"
+
+# Menu Configuration
+[[menu.main]]
+  identifier = "credit-cards"
+  name = "Credit Cards"
+  url = "/posts/best-credit-cards-2025/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "loans"
+  name = "Loans"
+  url = "/posts/personal-loan-guide-2025/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "credit-repair"
+  name = "Credit Repair"
+  url = "/posts/5-methods-to-boost-fico-score/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 40
+
+[[menu.footer]]
+  identifier = "privacy"
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 10
+
+[[menu.footer]]
+  identifier = "disclaimer"
+  name = "Disclaimer"
+  url = "/disclaimer/"
+  weight = 20
