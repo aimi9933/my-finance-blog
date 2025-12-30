@@ -39,3 +39,6 @@ We are not here to sell you a dream. We are here to provide the insights you nee
 
 ---
 *For more information on how we handle your data, please review our [Privacy Policy](/privacy/) and [Disclaimer](/disclaimer/).*
+### Contact Information
+If you have any questions or business inquiries, please feel free to reach out to us:
+**Email:** xifan@190802.xyz
