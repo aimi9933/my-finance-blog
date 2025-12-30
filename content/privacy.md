@@ -8,7 +8,7 @@ draft: false
 
 At **SmartVault Insights** (accessible from https://190802.xyz), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by SmartVault Insights and how we use it.
 
-If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at **xifan@190802.xyz**.
 
 This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in SmartVault Insights. This policy is not applicable to any information collected offline or via channels other than this website.
 
@@ -28,7 +28,7 @@ When you register for an Account, we may ask for your contact information, inclu
 
 We use the information we collect in various ways, including to:
 
-*   Provide, operate, and maintain our webste
+*   Provide, operate, and maintain our website
 *   Improve, personalize, and expand our website
 *   Understand and analyze how you use our website
 *   Develop new products, services, features, and functionality

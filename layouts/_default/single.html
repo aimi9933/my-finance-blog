@@ -5,6 +5,11 @@
 
         <!-- Header -->
         <header class="mb-12 text-center">
+            {{ with .Params.featured_image }}
+            <div class="w-full h-64 md:h-80 mb-8 rounded-lg overflow-hidden shadow-md">
+                <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="w-full h-full object-cover">
+            </div>
+            {{ end }}
             <div class="flex justify-center gap-2 mb-6">
                 {{ range .Params.categories }}
                 <span

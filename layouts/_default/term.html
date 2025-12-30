@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<section class="bg-gray-50 py-16">
+    <div class="container mx-auto px-6">
+        <!-- Title -->
+        <h1 class="text-4xl font-serif font-bold text-gray-900 mb-12 text-center capitalize">
+            {{ .Title }}
+        </h1>
+
+        <!-- Debug Info -->
+
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {{ range .Pages }}
+            <article
+                class="flex flex-col h-full bg-white rounded-lg shadow-sm hover:shadow-xl transition-shadow border border-gray-100 overflow-hidden">
+                <!-- Image -->
+                {{ with .Params.featured_image }}
+                <div class="h-48 overflow-hidden">
+                    <img src="{{ . | relURL }}" alt="{{ $.Title }}"
+                        class="w-full h-full object-cover transition-transform duration-500 hover:scale-105">
+                </div>
+                {{ else }}
+                <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400">
+                    <span class="text-sm uppercase tracking-wide">Article Image</span>
+                </div>
+                {{ end }}
+
+                <div class="p-6 flex flex-col flex-grow">
+                    <div class="flex items-center gap-2 mb-3">
+                        {{ with .Params.categories }}
+                        {{ range first 1 . }}
+                        <span class="bg-blue-50 text-blue-700 text-xs font-bold px-2 py-1 rounded uppercase">{{ .
+                            }}</span>
+                        {{ end }}
+                        {{ end }}
+                        <span class="text-xs text-gray-500">{{ .Date.Format "Jan 2, 2006" }}</span>
+                    </div>
+
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 font-serif leading-tight">
+                        <a href="{{ .RelPermalink }}" class="hover:text-blue-600 transition-colors">
+                            {{ .Title }}
+                        </a>
+                    </h3>
+
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3 flex-grow">
+                        {{ .Summary | truncate 150 }}
+                    </p>
+
+                    <a href="{{ .RelPermalink }}"
+                        class="text-trust-blue font-semibold text-sm hover:underline mt-auto inline-flex items-center">
+                        Read Analysis
+                        <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+
+        <!-- Pagination -->
+        <div class="mt-12 flex justify-center">
+            {{ template "_internal/pagination.html" . }}
+        </div>
+    </div>
+</section>
+
+{{ end }}

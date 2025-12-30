@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on SmartVault Insights</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on SmartVault Insights</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 09:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cash Back</title>
+      <link>http://localhost:1313/tags/cash-back/</link>
+      <pubDate>Sun, 15 Dec 2024 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/cash-back/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credit Cards</title>
+      <link>http://localhost:1313/tags/credit-cards/</link>
+      <pubDate>Sun, 15 Dec 2024 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/credit-cards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rewards</title>
+      <link>http://localhost:1313/tags/rewards/</link>
+      <pubDate>Sun, 15 Dec 2024 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/rewards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/tags/travel/</link>
+      <pubDate>Sun, 15 Dec 2024 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2025 Guide</title>
+      <link>http://localhost:1313/tags/2025-guide/</link>
+      <pubDate>Sun, 01 Dec 2024 08:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/2025-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debt Consolidation</title>
+      <link>http://localhost:1313/tags/debt-consolidation/</link>
+      <pubDate>Sun, 01 Dec 2024 08:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/debt-consolidation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loans</title>
+      <link>http://localhost:1313/tags/loans/</link>
+      <pubDate>Sun, 01 Dec 2024 08:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/loans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credit Repair</title>
+      <link>http://localhost:1313/tags/credit-repair/</link>
+      <pubDate>Fri, 15 Nov 2024 10:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/credit-repair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FICO</title>
+      <link>http://localhost:1313/tags/fico/</link>
+      <pubDate>Fri, 15 Nov 2024 10:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/fico/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Finance</title>
+      <link>http://localhost:1313/tags/personal-finance/</link>
+      <pubDate>Fri, 15 Nov 2024 10:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/personal-finance/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

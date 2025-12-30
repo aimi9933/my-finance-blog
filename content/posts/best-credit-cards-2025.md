@@ -4,6 +4,7 @@ date: 2024-12-15T09:00:00-05:00
 draft: false
 tags: ["Credit Cards", "Rewards", "Travel", "Cash Back"]
 categories: ["Credit Strategy"]
+featured_image: "/images/credit-cards.jpg"
 ---
 
 Choosing the right credit card isn't just about spending—it's about earning. In 2025, issuers are competing aggressively for your wallet, offering historically high welcome bonuses and enhanced perk packages.

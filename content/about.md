@@ -38,7 +38,11 @@ We understand the weight of financial decisions. That is why SmartVault Insights
 We are not here to sell you a dream. We are here to provide the insights you need to build a solid financial reality.
 
 ---
+
+### Contact Us
+
+Have questions, suggestions, or need to report a correction? We value open communication with our readers.
+
+**Email**: [xifan@190802.xyz](mailto:xifan@190802.xyz)
+
 *For more information on how we handle your data, please review our [Privacy Policy](/privacy/) and [Disclaimer](/disclaimer/).*
-### Contact Information
-If you have any questions or business inquiries, please feel free to reach out to us:
-**Email:** xifan@190802.xyz

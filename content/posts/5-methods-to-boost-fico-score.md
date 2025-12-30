@@ -4,6 +4,7 @@ date: 2024-11-15T10:30:00-05:00
 draft: false
 tags: ["Credit Repair", "FICO", "Personal Finance"]
 categories: ["Credit Strategy"]
+featured_image: "/images/fico-score.jpg"
 ---
 
 Your FICO® score is the gatekeeper to your financial life. Whether you're eyeing a new mortgage, a car loan, or a premium rewards credit card, those three digits define your buying power.

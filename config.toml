@@ -3,6 +3,13 @@ languageCode = "en-us"
 title = "SmartVault Insights"
 #theme = "congo"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  tags = "/tags/:slug/"
+
 [params]
   description = "Expert financial advice on credit repair, loans, and personal finance strategies."
   author = "SmartVault Insights Team"

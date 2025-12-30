@@ -4,6 +4,7 @@ date: 2024-12-01T08:00:00-05:00
 draft: false
 tags: ["Loans", "Debt Consolidation", "2025 Guide"]
 categories: ["Lending"]
+featured_image: "/images/loans.jpg"
 ---
 
 As we head into 2025, the lending landscape is shifting. With interest rates fluctuating, finding the right personal loan requires verified data and expert comparison. Whether you need to consolidate high-interest debt or fund a major renovation, this guide breaks down the top contenders.

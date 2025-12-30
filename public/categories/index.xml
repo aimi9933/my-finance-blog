@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on SmartVault Insights</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on SmartVault Insights</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 09:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Credit Strategy</title>
+      <link>http://localhost:1313/categories/credit-strategy/</link>
+      <pubDate>Sun, 15 Dec 2024 09:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/categories/credit-strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lending</title>
+      <link>http://localhost:1313/categories/lending/</link>
+      <pubDate>Sun, 01 Dec 2024 08:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/categories/lending/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

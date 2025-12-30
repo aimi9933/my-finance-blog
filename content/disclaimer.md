@@ -31,9 +31,15 @@ This Site may contain links to affiliate websites, and we receive an affiliate c
 *   ClickBank
 *   MaxBounty
 *   Amazon Associates
+*   Impact Radius
+*   Commission Junction
 
 We are a participant in various affiliate programs designed to provide a means for us to earn fees by linking to affiliated sites. This comes at no extra cost to you.
 
 ## Testimonials Disclaimer
 
 The Site may contain testimonials by users of our products and/or services. These testimonials reflect the real-life experiences and opinions of such users. However, the experiences are personal to those particular users, and may not necessarily be representative of all users of our products and/or services. We do not claim, and you should not assume, that all users will have the same experiences. Your individual results may vary.
+
+## Errors and Omissions Disclaimer
+
+While we strive to provide accurate and up-to-date information, the financial industry is subject to frequent changes in laws, regulations, and market conditions. SmartVault Insights cannot be held responsible for any errors or omissions, or for the results obtained from the use of this information. All information in this site is provided "as is", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information.
